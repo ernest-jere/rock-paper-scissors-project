@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Game</title>
+    <script src="./scripts/script.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body onload="startGame()"> 
+    <div id="container">
+        <h1> GAME</h1>
+        <div id="displayPanel">
+            <div id="computer" class="points">
+                <div id="comScore" class="score"></div>
+                <div style="font-size: 16px;">Computer</div> 
+            </div>
+            <div id="winner"></div>
+            <div id="player" class="points">
+                <div id="playerScore" class="score"></div>
+                <div style="font-size: 16px;">Player</div> 
+            </div>
+        </div>
+        <div id="buttonPanel">
+            <button id = "rockButton" onclick="playerChoice(this)">Rock</button>
+            <button id = "paperButton" onclick="playerChoice(this)">Paper</button>
+            <button id = "scissorsButton" onclick="playerChoice(this)">Scissors</button>
+        </div>
+    </div> 
+</body>
+</html>

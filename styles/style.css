@@ -1,0 +1,94 @@
+/*Game script*/
+div#container {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    padding: 24px;
+    margin: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 8px 5px 11px #FF0000, 12px 8px 14px #0000FF;
+    color: darkgray;
+    font-size: -webkit-xxx-large;
+}
+
+div#displayPanel {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    height: 150px;
+    border: 4px solid crimson;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#winnerPanel {
+    width: 550px;
+    height: 100px;
+    border-radius: 12px;
+    border: 4px solid white;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 14px;
+    color: white;
+    font-size: 32px;
+    font-weight: bolder;
+
+}
+
+div#buttonPanel {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 14px;
+    padding: 14px;
+}
+
+button {
+    width: 129px;
+    height: 135px;
+    border-radius: 50px;
+    box-shadow: 6px 5px 3px 0px lightblue;
+    font-size: 30px;
+    text-shadow: 2px 2px;
+}
+
+button#rockButton {
+    background-color:darkgoldenrod;
+}
+
+button#paperButton {
+    background-color: green;
+}
+
+button#scissorsButton {
+    background-color: blue;
+}
+
+div.points {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 75px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.score {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    background-color: #ff2400;
+    line-height: 70px;
+}
+
+div#winner {
+    align-self: center;
+    flex-grow: 3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
